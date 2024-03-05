@@ -1,0 +1,21 @@
+verb1 = input ("verb:")
+verb2 = input ("verb:")
+adjective1 = input ("famous_person:")
+adjective2 = input ("famous_movie:")
+
+#madlib = "I love travelling. This year we are going to Lucknow, where we would" + verb1 + and then to Nainital for + verb2 + ".This would be like travelling with friends that" + adjective + "did in the movie" + adjective + 
+
+
+madlib = f"I love travelling. This year we are going to Lucknow, where we would {verb1} and then to Nainital for {verb2}. This would be like travelling with friends that {adjective1} did in the movie {adjective2}"
+
+print (madlib)
+
+
+#concepts used:
+#1.Variable
+#2.Input Function
+#3.String Concatenation
+#4.Print Function
+
+#new concepts introduced:
+#fstring
